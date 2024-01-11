@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.icons i{
+    font-size: 32px;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+header{
+    background: rgb(237,255,0);
+    background: linear-gradient(90deg, rgba(237,255,0,1) 0%, rgba(0,255,12,1) 43%, rgba(0,172,255,1) 82%);
+}
+
+.icons i:hover{
+    transform: scale(105%);
+    filter: drop-shadow(0 0 5px rgb(252, 106, 252));
+}
+body{
+    background-image: url("https://d3nn873nee648n.cloudfront.net/1200x1800-new/100166/ZM1027855.jpg");
+}
+

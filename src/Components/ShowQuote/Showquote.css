@@ -1,0 +1,10 @@
+
+.inputBox{
+    width: 100%;
+    max-width: 1200px;
+    /* margin: auto; */
+    margin: 20px auto 0px;
+}
+.inputBox h3, .inputBox p{
+    text-align: center;
+}
